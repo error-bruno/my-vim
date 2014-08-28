@@ -48,3 +48,5 @@ let mapleader = ","
 set title
 nmap <F5> :%s/\s\+ \ze= / /g<CR>
 nnoremap <silent> <C-l> :nohl<CR><C-l>
+set nobackup
+set nowritebackup
