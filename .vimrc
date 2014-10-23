@@ -50,3 +50,4 @@ nmap <F5> :%s/\s\+ \ze= / /g<CR>
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 set nobackup
 set nowritebackup
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
